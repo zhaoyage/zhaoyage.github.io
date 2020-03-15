@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Saturn</title>
+  
+  <subtitle>Welcome to my blog(Z.Y.G)</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zhaoyage.github.io/"/>
+  <updated>2020-03-02T07:05:44.860Z</updated>
+  <id>https://zhaoyage.github.io/</id>
+  
+  <author>
+    <name>猪猪女孩</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>coding删除项目-最新方式</title>
+    <link href="https://zhaoyage.github.io/2020/02/26/second-blog/"/>
+    <id>https://zhaoyage.github.io/2020/02/26/second-blog/</id>
+    <published>2020-02-26T11:44:59.136Z</published>
+    <updated>2020-03-02T07:05:44.860Z</updated>
+    
+    <content type="html"><![CDATA[<p>在github上搭建的静态博客，加载太慢但是突然看到coding能够优化github和hexo搭建博客的加载速度，就想尝试下发现coding最新改版，网上好多教程都不能作为参考，只有2019年10月份以后的教程步骤才可以做参考，今天想记录一下github和coding的区别并且介绍一下coding删除项目的最新方式。</p><h2 id="Github和Coding的区别"><a href="#Github和Coding的区别" class="headerlink" title="Github和Coding的区别"></a>Github和Coding的区别</h2><h3 id="相同点："><a href="#相同点：" class="headerlink" title="相同点："></a>相同点：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*都是代码的托管平台。</span><br><span class="line">*都可以和hexo结合创建个人静态网页(博客)。</span><br><span class="line">*github和coding都可以托管git库。</span><br></pre></td></tr></table></figure><h3 id="不同点："><a href="#不同点：" class="headerlink" title="不同点："></a>不同点：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*github是国外的代码托管平台,coding是国内的代码托管平台。</span><br><span class="line">*对个人开发者来说github的私有仓库是收费的,目前是<span class="variable">$7</span>/项目/月，而且国内访问速度太慢；coding普通用户可以免费创建2个私有仓库,而且coding的仓库在国内环境下访问速度很快。</span><br><span class="line">*coding在私有项目方面的贡献，已经远远超过了gitHub，但是gitHub的传播性以及他在开源项目中的地位是coding难以动摇的。</span><br></pre></td></tr></table></figure><h2 id="Coding删除项目的新方式"><a href="#Coding删除项目的新方式" class="headerlink" title="Coding删除项目的新方式"></a>Coding删除项目的新方式</h2><p>在新的系统中没有【删除项目】的选项，只有【退出项目】所以找到退出项目，这个项目就不在你的列表里面了。找到【项目设置】–&gt;【项目成员】–&gt;【成员】–&gt;【退出项目】<br><img src="../images/1.jpg" alt="image">。<br><img src="../images/2.jpg" alt="image">。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在github上搭建的静态博客，加载太慢但是突然看到coding能够优化github和hexo搭建博客的加载速度，就想尝试下发现coding最新改版，网上好多教程都不能作为参考，只有2019年10月份以后的教程步骤才可以做参考，今天想记录一下github和coding的区别
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>博客的第一条记录</title>
+    <link href="https://zhaoyage.github.io/2020/02/24/first-blog/"/>
+    <id>https://zhaoyage.github.io/2020/02/24/first-blog/</id>
+    <published>2020-02-24T12:11:31.275Z</published>
+    <updated>2020-02-29T09:23:13.746Z</updated>
+    
+    <content type="html"><![CDATA[<p>一时心血来潮想建属于自己的博客，但是需要租域名和服务器，无意间看到可以用Github、Node.js和Hexo可以免费搭建个人博客就想尝试下，花费两天时间终于博客雏形已经搭建好。你如果想让你的博客域名比较牛掰的话你可以自己买个域名,我准备在<a href="https://www.namesilo.com/" target="_blank" rel="noopener">namesilo</a>上买域名比较能保护自己隐私。</p><p>Welcome to<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Github搭建个人博客的优缺点"><a href="#Github搭建个人博客的优缺点" class="headerlink" title="Github搭建个人博客的优缺点"></a>Github搭建个人博客的优缺点</h2><h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 免费且不限流量；</span><br><span class="line">* 享受git的版本管理功能，不用担心文章遗失；</span><br><span class="line">* 只需要用自己喜欢的编辑器写文章就好，其他的都丢给github处理就好(我用sublime编译器markdown编写博客内容)；</span><br></pre></td></tr></table></figure><h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 需要一定的基础，懂一些git和网页开发的知识；</span><br><span class="line">* 只能生成静态网页，动态功能需要使用外部服务器，比如评论功能可能需要使用到disqus；</span><br><span class="line">* 不适合大型网站，由于没有用到数据库，没运行一次就需要遍历全部的文本文件，网站内容越多生成需要的时间就越长。</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一时心血来潮想建属于自己的博客，但是需要租域名和服务器，无意间看到可以用Github、Node.js和Hexo可以免费搭建个人博客就想尝试下，花费两天时间终于博客雏形已经搭建好。你如果想让你的博客域名比较牛掰的话你可以自己买个域名,我准备在&lt;a href=&quot;https://
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
